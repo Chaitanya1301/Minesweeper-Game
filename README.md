@@ -1,18 +1,43 @@
-## Getting Started
+🏆 Minesweeper Game
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple command-line Minesweeper game built in Java.
 
-## Folder Structure
+📌 Overview
+This is a classic Minesweeper game implemented in Java, where the player uncovers grid cells while avoiding hidden mines. The game dynamically adjusts difficulty levels and provides an interactive command-line experience.
 
-The workspace contains two folders by default, where:
+🎮 How to Play
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Run the game, and you will be prompted to select a difficulty level:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+0 → Easy
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+1 → Medium
 
-## Dependency Management
+2 → Hard
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+The game generates a 9x9 grid with hidden mines based on the chosen difficulty.
+
+Enter row and column coordinates to uncover a cell.
+
+If the cell contains a mine, the game is over.
+
+If the cell is safe, it will reveal:
+
+A number (indicating nearby mines)
+
+An empty space (if no adjacent mines)
+
+Goal: Uncover all safe cells without hitting a mine!
+
+
+⚙️ Features
+
+✅ Multiple Difficulty Levels (Easy, Medium, Hard)
+
+✅ Randomized Mine Placement
+
+✅ Flood Fill for Empty Spaces (Expands safe areas automatically)
+
+✅ Command-Line Interface (CLI)
+
+✅ Grid Display with Revealed and Hidden Cells
