@@ -41,3 +41,25 @@ Goal: Uncover all safe cells without hitting a mine!
 ✅ Command-Line Interface (CLI)
 
 ✅ Grid Display with Revealed and Hidden Cells
+
+🛠️ Project Structure
+bash
+Copy
+Edit
+Minesweeper-Game/
+
+├── src/
+
+│   ├── game/
+
+│   │   ├── Main.java          # Entry point of the game
+
+│   │   ├── MinesweeperGame.java  # Core game logic
+
+│   ├── util/
+
+│       ├── MinesweeperUtils.java  # Utility functions for grid display
+
+├── README.md  # Project description
+
+├── .gitignore # (Optional) Exclude unnecessary files
